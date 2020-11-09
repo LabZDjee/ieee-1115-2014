@@ -1,0 +1,15 @@
+ {
+  "title": "Test with a 104Ah battery",
+  "nominalCapacity": 104,
+  "numberOfSections": 4,
+  "verbose": true,
+  "deratingFactorOnTemp": 1.19,
+  "randomSize": 0.0,
+  "designMargin": 1.15,
+  "agingFactor": 1.25,
+  "finalTolerance": 0.99,
+  "csvFileNames":{
+   "startingCycles": "./sample/starting-data.csv",
+   "ampsByDurationFileName": "./sample/amps-per-duration-to-1.05V.csv"
+   }
+ }
